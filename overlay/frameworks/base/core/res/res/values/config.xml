@@ -165,6 +165,11 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">10</integer>
+	
+	<!-- Dream of notifications -->
++    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
++    <bool name="config_dozeAfterScreenOff">true</bool>
++    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- If this is true, the screen will come on when you plug/unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
